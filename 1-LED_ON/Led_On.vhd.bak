@@ -1,0 +1,18 @@
+library IEEE;
+use IEEE.std_logic_1164.all;
+use IEEE.numeric_std.all;
+
+entity Led_On is
+	port(
+		led: out std_logic
+	);
+end Led_On;
+
+architecture Behavioral of Led_On is
+
+
+	led <= '1';
+
+
+
+end Behavioral;

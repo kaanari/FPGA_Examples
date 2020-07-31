@@ -1,0 +1,4 @@
+|Led_On
+led <= <VCC>
+
+

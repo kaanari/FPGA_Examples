@@ -1,0 +1,13 @@
+|Leds_On
+leds[0] <= <VCC>
+leds[1] <= <VCC>
+leds[2] <= <VCC>
+leds[3] <= <GND>
+leds[4] <= <VCC>
+leds[5] <= <GND>
+leds[6] <= <GND>
+leds[7] <= <VCC>
+leds[8] <= <VCC>
+leds[9] <= <VCC>
+
+

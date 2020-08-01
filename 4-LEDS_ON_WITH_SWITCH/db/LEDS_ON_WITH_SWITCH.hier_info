@@ -1,0 +1,23 @@
+|LEDS_ON_WITH_SWITCH
+switches[0] => leds[0].DATAIN
+switches[1] => leds[1].DATAIN
+switches[2] => leds[2].DATAIN
+switches[3] => leds[3].DATAIN
+switches[4] => leds[4].DATAIN
+switches[5] => leds[5].DATAIN
+switches[6] => leds[6].DATAIN
+switches[7] => leds[7].DATAIN
+switches[8] => leds[8].DATAIN
+switches[9] => leds[9].DATAIN
+leds[0] <= switches[0].DB_MAX_OUTPUT_PORT_TYPE
+leds[1] <= switches[1].DB_MAX_OUTPUT_PORT_TYPE
+leds[2] <= switches[2].DB_MAX_OUTPUT_PORT_TYPE
+leds[3] <= switches[3].DB_MAX_OUTPUT_PORT_TYPE
+leds[4] <= switches[4].DB_MAX_OUTPUT_PORT_TYPE
+leds[5] <= switches[5].DB_MAX_OUTPUT_PORT_TYPE
+leds[6] <= switches[6].DB_MAX_OUTPUT_PORT_TYPE
+leds[7] <= switches[7].DB_MAX_OUTPUT_PORT_TYPE
+leds[8] <= switches[8].DB_MAX_OUTPUT_PORT_TYPE
+leds[9] <= switches[9].DB_MAX_OUTPUT_PORT_TYPE
+
+

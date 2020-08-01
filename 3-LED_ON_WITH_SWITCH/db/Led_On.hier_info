@@ -1,0 +1,5 @@
+|Led_On_With_Switch
+switch => led.DATAIN
+led <= switch.DB_MAX_OUTPUT_PORT_TYPE
+
+

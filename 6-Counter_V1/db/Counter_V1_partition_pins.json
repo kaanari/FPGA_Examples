@@ -1,0 +1,97 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "Q[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Q[7]",
+					"strict" : false
+				},
+				{
+					"name" : "Clock",
+					"strict" : false
+				},
+				{
+					"name" : "Data[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Reset",
+					"strict" : false
+				},
+				{
+					"name" : "Load",
+					"strict" : false
+				},
+				{
+					"name" : "Enable",
+					"strict" : false
+				},
+				{
+					"name" : "Count",
+					"strict" : false
+				},
+				{
+					"name" : "Data[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Data[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Data[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Data[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Data[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Data[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Data[7]",
+					"strict" : false
+				},
+				{
+					"name" : "UpDn",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

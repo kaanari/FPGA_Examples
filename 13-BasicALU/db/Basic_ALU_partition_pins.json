@@ -1,0 +1,149 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "dataOut[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dataOut[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dataOut[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dataOut[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dataOut[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dataOut[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dataOut[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dataOut[7]",
+					"strict" : false
+				},
+				{
+					"name" : "dataOutExtended[0]",
+					"strict" : false
+				},
+				{
+					"name" : "dataOutExtended[1]",
+					"strict" : false
+				},
+				{
+					"name" : "dataOutExtended[2]",
+					"strict" : false
+				},
+				{
+					"name" : "dataOutExtended[3]",
+					"strict" : false
+				},
+				{
+					"name" : "dataOutExtended[4]",
+					"strict" : false
+				},
+				{
+					"name" : "dataOutExtended[5]",
+					"strict" : false
+				},
+				{
+					"name" : "dataOutExtended[6]",
+					"strict" : false
+				},
+				{
+					"name" : "dataOutExtended[7]",
+					"strict" : false
+				},
+				{
+					"name" : "operandB[0]",
+					"strict" : false
+				},
+				{
+					"name" : "operandA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "opCode[1]",
+					"strict" : false
+				},
+				{
+					"name" : "opCode[2]",
+					"strict" : false
+				},
+				{
+					"name" : "opCode[0]",
+					"strict" : false
+				},
+				{
+					"name" : "operandA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "operandA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "operandA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "operandA[7]",
+					"strict" : false
+				},
+				{
+					"name" : "operandB[1]",
+					"strict" : false
+				},
+				{
+					"name" : "operandB[2]",
+					"strict" : false
+				},
+				{
+					"name" : "operandB[3]",
+					"strict" : false
+				},
+				{
+					"name" : "operandB[4]",
+					"strict" : false
+				},
+				{
+					"name" : "operandB[5]",
+					"strict" : false
+				},
+				{
+					"name" : "operandB[6]",
+					"strict" : false
+				},
+				{
+					"name" : "operandB[7]",
+					"strict" : false
+				},
+				{
+					"name" : "operandA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "operandA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "operandA[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

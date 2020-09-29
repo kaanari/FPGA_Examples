@@ -1,0 +1,22 @@
+library IEEE;
+use IEEE.std_logic.all;
+use IEEE.numeric_std.all;
+
+entity BCD_Decoder is
+port(
+	binaryNumber: in std_logic_vector(15 downto 0);
+	CLK: in std_logic;
+	dataBus: out std_logic_vector(6 downto 0);
+	SEL: out std_logic_vector(4 downto 0)
+);
+end BCD_Decoder;
+
+architecture Behavioral of BCD_Decoder is
+begin
+
+
+
+
+
+
+end Behavioral;

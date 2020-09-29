@@ -1,0 +1,74 @@
+# Reading C:/intelFPGA/19.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Basic_ALU_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA/19.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {Y:/Desktop/FPGA/13-BasicALU/Basic_ALU.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:46:25 on Aug 03,2020
+# vcom -reportprogress 300 -93 -work work Y:/Desktop/FPGA/13-BasicALU/Basic_ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity Basic_ALU
+# -- Compiling architecture Behavioral of Basic_ALU
+# End time: 14:46:25 on Aug 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work Y:/Desktop/FPGA/13-BasicALU/TB_Basic_ALU.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:46:40 on Aug 03,2020
+# vcom -reportprogress 300 -work work Y:/Desktop/FPGA/13-BasicALU/TB_Basic_ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_basic_alu
+# -- Compiling architecture TB of tb_basic_alu
+# End time: 14:46:40 on Aug 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work Y:/Desktop/FPGA/13-BasicALU/TB_Basic_ALU.vhd
+# Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 14:46:41 on Aug 03,2020
+# vcom -reportprogress 300 -work work Y:/Desktop/FPGA/13-BasicALU/TB_Basic_ALU.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity tb_basic_alu
+# -- Compiling architecture TB of tb_basic_alu
+# End time: 14:46:41 on Aug 03,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_basic_alu
+# vsim work.tb_basic_alu 
+# Start time: 14:46:45 on Aug 03,2020
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading work.tb_basic_alu(tb)
+# Loading work.basic_alu(behavioral)
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:proc:11: ::QStructure::sort .main_pane.structure 2 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 2 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 2 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 2 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+add wave -position insertpoint  \
+sim:/tb_basic_alu/opCode \
+sim:/tb_basic_alu/operandA \
+sim:/tb_basic_alu/operandB \
+sim:/tb_basic_alu/dataOut \
+sim:/tb_basic_alu/dataOutExtended
+run -all
+# End time: 15:14:21 on Aug 03,2020, Elapsed time: 0:27:36
+# Errors: 14, Warnings: 0

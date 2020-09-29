@@ -16,4 +16,4 @@ I have already explained the all steps in the [1-LED_ON](../1-LED_ON) project. T
 Finally, we can put the :blush: on our faces. 
 ![Result](Leds_On.JPG)
 
-Now all the leds is working proper as it is seen in the figure above (There is no unexpected states (Neither Logic-1 nor logic-0))
+Now all the leds is working properly as it is seen in the figure above (There is no unexpected states (Neither Logic-1 nor logic-0))

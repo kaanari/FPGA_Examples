@@ -2,7 +2,7 @@ library IEEE;
 use IEEE.std_logic_1164.all;
 use IEEE.numeric_std.all;
 
-entity Seven_Segment_Decoder is
+entity Seven_Segment_Decoder is    --entity declaration
 port(
 
 	binaryNumber: in std_logic_vector(3 downto 0);
@@ -12,7 +12,7 @@ port(
 end Seven_Segment_Decoder;
 
 
-architecture Behavioral of Seven_Segment_Decoder is
+architecture Behavioral of Seven_Segment_Decoder is   --architecture declaration
 signal binaryNumber_int: integer range 0 to 15;
 begin
    
